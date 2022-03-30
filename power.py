@@ -19,7 +19,7 @@ birth = ['001', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'
 bd = random.randint(20000000.0, 30000000.0)
 sim = random.randint(20000.0, 40000.0)
 header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-fb-net-hni': repr(sim), 'x-fb-connection-quality': 'EXCELLENT', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.3', 'x-fb-connection-type': 'unknown', 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
-logo = '\033[1;91m\n\n.########..####..######..##.....##.##.....##\n.##.....##..##..##....##.##.....##.##.....##\033[1;97m\n.##.....##..##..##.......##.....##.##.....##\n.########...##...######..#########.##.....##\n.##...##....##........##.##.....##.##.....##\033[1;92m\n.##....##...##..##....##.##.....##.##.....##\n.##.....##.####..######..##.....##..#######.        \n\x1b[00m------------------------------------------\n \x1b[92m   Author \x1b[00m: \033[1;94mRishu Khan\n \x1b[92m    FB ID \x1b[00m: \x1b[94mhttps://www.facebook.com/Rishu.X.420\033[1;94m\n \x1b[92m WhatsApp\x1b[00m : \033[1;94mNot Used\n\x1b[00m------------------------------------------n/'
+logo = \n \x1b[92m   Author \x1b[00m: \033[1;94mSahil\n \x1b[92m    FB ID \x1b[00m: \x1b[94mhttps://www.facebook.com/sahil03081008587\033[1;94m\n \x1b[92m WhatsApp\x1b[00m : \033[1;94m03081008587\n\x1b[00m------------------------------------------n/'
 
 def menu():
     os.system('clear')
